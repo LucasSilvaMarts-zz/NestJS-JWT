@@ -1,9 +1,7 @@
-import { UsersService } from './app/users/users.service';
 import { Module } from '@nestjs/common';
 import { ConfigModule } from '@nestjs/config';
 import { TypeOrmModule, TypeOrmModuleOptions } from '@nestjs/typeorm';
 import { join } from 'path';
-import { UsersController } from './app/users/users.controller';
 import { UsersModule } from './app/users/users.module';
 
 @Module({
